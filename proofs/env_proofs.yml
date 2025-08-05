@@ -1,0 +1,12 @@
+name: ot-proofs
+channels: [conda-forge, pytorch]
+dependencies:
+  - python=3.10
+  - sympy=1.12
+  - numpy
+  - scipy
+  - pytorch::pytorch=2.3
+  - matplotlib
+  - jupyterlab
+  - pytest
+  - nbval 
